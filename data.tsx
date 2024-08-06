@@ -1,30 +1,21 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, MessageCircle } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Instagram size={30} strokeWidth={1} />,
+        src: "https://www.instagram.com/juanchor190963/",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/juandiego-riosrojas-7ba9582a9/",
     },
+    
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <MessageCircle size={30} strokeWidth={1} />,
+        src: "https://wa.me/3125191306",
     },
 ];
 
@@ -54,74 +45,78 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Diseño Intranet",
+        subtitle: "Intranet de empresa", 
+        description: "Esta fue en una empresa donde realice el diseño y parte del desarrollo, hecho en react y tailwind",
+        date: "May 2023 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Aplicacion Movil",
+        subtitle: "Aplicacion personal",
+        description: "Realice dos aplicaciones hechas en Flutter una agenda que la utilizo personal y la otra es para un restaurante ",
+        date: "Abr 2023 ",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Paginas web",
+        subtitle: "Proyecto personal",
+        description: "Realice algunas paginas web con el framework de React y Tailwind CSS",
+        date: "Dic 2023",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Desarrollo frontend y backend",
+        subtitle: "Consultorio pediatrico",
+        description: "Este fue un proyecto realizado en el lenguaje de Java con el framework de Spring Boot, su funcion era poder solicitar cita, reservar la cita, hacer la respectiva facturacion y realizar un historial, se podria descargar los reportes ",
+        date: "Nov 2023 ",
+    },
+    
+    {
+        id: 5,
+        title: "Pagina de navegacion",
+        subtitle: "Pagina Seminario Biblico ",
+        description: "Esta fue una pagina para el seminario bliblico de la iglesia Avivamiento en Bogota para los estudiantes, donde muestra el contenido necesario  para que los profesores pudieran acceder a este facilmente  .",
+        date: "May 2023",
+    },
+    {
+        id: 6,
+        title: "Diseño web",
+        subtitle: "HTML y CSS",
+        description: "En este tiempo realice varias paginas. ",
+        date: "Ago 2022",
+    },
+    {
+        id: 7,
+        title: "Desarrollo frontend y backend",
+        subtitle: "Tienda virtual",
+        description: "Proyecto realizado en php, es una tienda virtual.",
+        date: "Feb 2022",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 2,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
-        id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
         id: 2,
-        endCounter: 220,
+        endCounter: 50,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
+    
 ];
 
 export const serviceData = [

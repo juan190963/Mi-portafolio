@@ -11,8 +11,8 @@ const Header = () => {
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
-                            Tarre
-                            <span className="text-secondary">Dev</span>
+                            JuanDiegoR
+                            <span className="text-green-500">Dev</span>
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-7">
@@ -21,7 +21,7 @@ const Header = () => {
                                 key={id}
                                 href={src}
                                 target="_blank"
-                                className="transition-all duration-300 hover:text-secondary"
+                                className="transition-all duration-300 hover:text-green-500"
                             >
                                 {logo}
                             </Link>
