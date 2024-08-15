@@ -14,7 +14,7 @@ const ServicesPage = () => {
                 <div className="max-w-[450px]">
 
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">Mis <span className="font-bold text-green-500"> servicios.</span></h1>
-                    <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de desarrollo web especializados en la creacion
+                    <p className="mb-3 text-xl text-gray-300 text-justify sm:mt-24 ">Ofrezco servicios de desarrollo web especializados en la creacion
                             de sitios web y aplicaciones atractivas y funcionales.Utilizando
                             las ultimas tecnologias, como HTML, CSS, Tailwind CSS, JavaScript,
                             React, Java, Spring Boot, php, Angular, diseño interfaces de usuario

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      zIndex: {
+        '-1': '-1',
+      },
       colors: {
         secondary: "#f5741c",
         darkBg: "#131424",
