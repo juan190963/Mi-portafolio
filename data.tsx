@@ -150,24 +150,24 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Pagina/Page ",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/juan190963/Cafe-Max",
+        urlDemo: "https://juan190963.github.io/Cafe-Max/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Page Movies",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/juan190963/SmarPelis",
+        urlDemo: "https://juan190963.github.io/SmarPelis/",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Page Seminary",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/juan190963/SeminarioBiblico",
+        urlDemo: "https://juan190963.github.io/SeminarioBiblico/",
     },
     {
         id: 4,
